@@ -37,17 +37,6 @@ namespace Sandbox
             translation = translation.Trim('-');
             translation = translation.Trim();
 
-            //var indexOfDash = translation.IndexOf("–") + 1;
-            //if (indexOfDash > 0)
-            //{
-            //    translation = translation.Substring(indexOfDash).Trim();
-            //}
-
-            //if (translation.StartsWith('-'))
-            //{
-            //    translation = translation.Substring(1);
-            //}
-
             return new Jword
             {
                 Kana = WanaKana.IsKana(kana) ? kana : string.Empty,
@@ -78,9 +67,48 @@ namespace Sandbox
             .Wait();
         }
 
+        static void Bundle(string[] files)
+        {
+            var allWords = files
+                .SelectMany(f => 
+                    File.ReadAllTextAsync($"{f}.xml")
+                    .ContinueWith<XDocument>(s => XDocument.Parse(s.Result))
+                    .ContinueWith<IEnumerable<Jword>>(d => d.Result
+                        .Descendants("li")
+                        .Where(li =>
+                        !li.HasAttributes)
+                        .Select(li => Jword.FromLi(li))
+                        .Where(j => !string.IsNullOrWhiteSpace(j.Kana)))
+                    .Result
+                );
+
+            var json = JsonSerializer.Serialize(allWords, new JsonSerializerOptions
+            {
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+                WriteIndented = true
+            });
+
+            File.WriteAllText($"{files.First()}.json", json);
+        }
+
         static void Main(string[] args)
         {
-            Parse("jlpt5");
+            //Parse("jlpt2");
+            string[] b = { 
+                "jlpt1--",
+                "jlpt1-a",
+                "jlpt1-ka",
+                "jlpt1-sa",
+                "jlpt1-ta",
+                "jlpt1-na",
+                "jlpt1-ha",
+                "jlpt1-ma",
+                "jlpt1-ya",
+                "jlpt1-ra",
+                "jlpt1-wa"
+            };
+
+            Bundle(b);
 
             Console.WriteLine("Done!");
             //Console.ReadLine();

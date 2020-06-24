@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Japanizor.Shared
+namespace Japanizor.Model
 {
     public class Randomizer
     {
