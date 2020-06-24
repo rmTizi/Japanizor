@@ -17,7 +17,8 @@ else
     <form @onsubmit="CheckWord">
         <WordTest Word="@session?.Current" State="@state" />
         <p class="text-center">
-            <input id="romajiInput" autocomplete="off" spellcheck="false" @bind-value="@romaji" />
+            <input id="romajiInput" autocomplete="off" spellcheck="false"
+                   placeholder=" type in romanji " @bind-value="@romaji" />
         </p>
         <p class="text-center">
             @if (state == TestState.Correct)
