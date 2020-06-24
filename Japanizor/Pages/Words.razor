@@ -1,0 +1,46 @@
+@page "/words"
+@inject HttpClient Http
+
+<h1>Japanizor</h1>
+
+<p>1000 common words.</p>
+
+@if (words == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Kana</th>
+                <th>Kanji</th>
+                <th>Romaji</th>
+                <th>Translation</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var word in words)
+            {
+                <tr>
+                    <td>@word.Kana</td>
+                    <td>@word.Kanji</td>
+                    <td>@word.Romaji</td>
+                    <td>@word.Translation</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Jword[] words;
+
+    protected override async Task OnInitializedAsync()
+    {
+        words = await Http.GetFromJsonAsync<Jword[]>("sample-data/words.json");
+    }
+
+
+}

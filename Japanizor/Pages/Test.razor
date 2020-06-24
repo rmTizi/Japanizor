@@ -1,0 +1,85 @@
+﻿@page "/test"
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+
+<h1>Japanizor</h1>
+<h2>Testing word @current of @total </h2>
+
+@if (session?.Current != null)
+{
+    <p>Kana : @session.Current.Kana</p>
+    <p>Kanji : @session.Current.Kanji</p>
+
+    <form @onsubmit="CheckWord">
+        <p>Romaji : <input id="romajiInput" autocomplete="off" spellcheck="false" @bind-value="@romaji" /></p>
+        @if (!showTranslation)
+        {
+            <input type="submit" class="btn btn-primary" value="Check" />
+        }
+        else
+        {
+            <button class="btn btn-primary" @onclick="NextWord">Next</button>
+            <p>Translation : @session.Current.Translation</p>
+        }
+    </form>
+    @if (showError)
+    {
+        <p>Try again</p>
+    }
+}
+
+
+@code {
+    private int total = 0;
+    private int current = 0;
+    private bool showError = false;
+    private bool showTranslation = false;
+    private string romaji = string.Empty;
+    private Jword[] words;
+    private IEnumerator<Jword> session;
+
+    protected override async Task OnInitializedAsync()
+    {
+        words = await Http.GetFromJsonAsync<Jword[]>("sample-data/words.json");
+        Randomizer.Randomize(words);
+
+        session = words.AsEnumerable().GetEnumerator();
+        session.MoveNext();
+
+        total = words.Length;
+        current = 1;
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(!firstRender)
+        {
+            JsRuntime.InvokeAsync<string>("SetFocus", "romajiInput");
+        }
+        return base.OnAfterRenderAsync(firstRender);
+    }
+
+    private void NextWord()
+    {
+        showError = false;
+        showTranslation = false;
+        romaji = string.Empty;
+        session.MoveNext();
+        current++;
+    }
+
+    private void CheckWord()
+    {
+        if (romaji == session.Current.Romaji)
+        {
+            showError = false;
+            showTranslation = true;
+        }
+        else
+        {
+            showError = true;
+            showTranslation = false;
+        }
+        romaji = string.Empty;
+    }
+}
