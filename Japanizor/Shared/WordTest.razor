@@ -1,24 +1,71 @@
-﻿<h4 class="text-center text-muted">&nbsp;@Word?.Kana</h4>
-<h3 class="text-center">&nbsp;@Word?.Kanji</h3>
+﻿@inject IJSRuntime JsRuntime
 
-@switch (State)
-{
-    case TestState.Prompt:
-        <div class="alert alert-dark">&nbsp;</div>
-        break;
-    case TestState.Error:
-        <div class="alert alert-danger">Try again</div>
-        break;
-    case TestState.Correct:
-        <div class="alert alert-dark">@Word?.Translation</div>
-        break;
-    default:
-        break;
-}
+<form @onsubmit="CheckWord">
+    <h4 class="text-center text-muted">&nbsp;@Word?.Kana</h4>
+    <h3 class="text-center">&nbsp;@Word?.Kanji</h3>
+
+    <p class="text-center">
+        <input id="romajiInput" autocomplete="off" spellcheck="false"
+               placeholder=" type in romanji " @bind-value="@romaji" />
+    </p>
+
+    @switch (state)
+    {
+        case TestState.Prompt:
+            <div class="alert alert-dark">&nbsp;</div>
+            break;
+        case TestState.Error:
+            <div class="alert alert-danger">Try again</div>
+            break;
+        case TestState.Correct:
+            <div class="alert alert-dark">@Word?.Translation</div>
+            break;
+        default:
+            break;
+    }
+
+    <p class="text-center">
+        @if (state == TestState.Correct)
+        {
+            <button class="btn btn-success" @onclick="NextWord">Next</button>
+        }
+        else
+        {
+            <button class="btn btn-primary">Check</button>
+        }
+    </p>
+</form>
 
 @code {
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        JsRuntime.InvokeAsync<string>("SetFocus", "romajiInput");
+        return base.OnAfterRenderAsync(firstRender);
+    }
+
     [Parameter]
     public Jword Word { get; set; }
     [Parameter]
-    public TestState State { get; set; }
+    public Action NextWordAction { get; set; }
+
+    public TestState state = TestState.Prompt;
+
+    private string romaji = string.Empty;
+
+    private void CheckWord()
+    {
+
+        state = romaji == Word?.Romaji ? TestState.Correct : TestState.Error;
+        romaji = string.Empty;
+    }
+
+    private void NextWord()
+    {
+        state = TestState.Prompt;
+        romaji = string.Empty;
+
+        
+        if(NextWordAction != null) NextWordAction();
+    }
 }

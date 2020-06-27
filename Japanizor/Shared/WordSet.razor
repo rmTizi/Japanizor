@@ -1,5 +1,4 @@
 ﻿@inject HttpClient Http
-@inject IJSRuntime JsRuntime
 
 @if (loading)
 {
@@ -13,24 +12,7 @@
 else
 {
     <p class="text-center text-secondary">Word @current of @words?.Length </p>
-
-    <form @onsubmit="CheckWord">
-        <WordTest Word="@session?.Current" State="@state" />
-        <p class="text-center">
-            <input id="romajiInput" autocomplete="off" spellcheck="false"
-                   placeholder=" type in romanji " @bind-value="@romaji" />
-        </p>
-        <p class="text-center">
-            @if (state == TestState.Correct)
-            {
-                <button class="btn btn-success" @onclick="NextWord">Next</button>
-            }
-            else
-            {
-                <button class="btn btn-primary">Check</button>
-            }
-        </p>
-    </form>
+    <WordTest Word="@session?.Current" NextWordAction="() => NextWord()"/>
 }
 
 @code {
@@ -40,8 +22,6 @@ else
     private bool loading = true;
     private int current = 0;
     private IEnumerator<Jword> session;
-    private TestState state = TestState.Prompt;
-    private string romaji = string.Empty;
     private Jword[] words;
 
     protected override async Task OnParametersSetAsync()
@@ -54,15 +34,6 @@ else
         loading = false;
     }
 
-    protected override Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (!firstRender)
-        {
-            JsRuntime.InvokeAsync<string>("SetFocus", "romajiInput");
-        }
-        return base.OnAfterRenderAsync(firstRender);
-    }
-
     private void Shuffle()
     {
         Randomizer.Randomize(words);
@@ -71,16 +42,8 @@ else
         current = 1;
     }
 
-    private void CheckWord()
-    {
-        state = romaji == session?.Current?.Romaji ? TestState.Correct : TestState.Error;
-        romaji = string.Empty;
-    }
-
     private void NextWord()
     {
-        state = TestState.Prompt;
-        romaji = string.Empty;
         if (session.MoveNext())
         {
             current++;
@@ -91,5 +54,6 @@ else
             Shuffle();
             loading = false;
         }
+        this.StateHasChanged();
     }
 }
