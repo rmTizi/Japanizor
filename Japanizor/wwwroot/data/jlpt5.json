@@ -9,25 +9,25 @@
     "Kana": "あお",
     "Kanji": "青",
     "Romaji": "ao",
-    "Translation": "blue"
+    "Translation": "blue (noun)"
   },
   {
     "Kana": "あおい",
     "Kanji": "青い",
     "Romaji": "aoi",
-    "Translation": "blue"
+    "Translation": "blue (adj)"
   },
   {
     "Kana": "あか",
     "Kanji": "赤",
     "Romaji": "aka",
-    "Translation": "red"
+    "Translation": "red (noun)"
   },
   {
     "Kana": "あかい",
     "Kanji": "赤い",
     "Romaji": "akai",
-    "Translation": "red"
+    "Translation": "red (adj)"
   },
   {
     "Kana": "あかるい",
@@ -45,13 +45,13 @@
     "Kana": "あく",
     "Kanji": "開く",
     "Romaji": "aku",
-    "Translation": "to open,to become open"
+    "Translation": "to open (mediopassive)"
   },
   {
     "Kana": "あける",
     "Kanji": "開ける",
     "Romaji": "akeru",
-    "Translation": "to open"
+    "Translation": "to open (active)"
   },
   {
     "Kana": "あげる",
@@ -73,7 +73,7 @@
   },
   {
     "Kana": "あさって",
-    "Kanji": "",
+    "Kanji": "明後日",
     "Romaji": "asatte",
     "Translation": "day after tomorrow"
   },
@@ -81,7 +81,7 @@
     "Kana": "あし",
     "Kanji": "足",
     "Romaji": "ashi",
-    "Translation": "foot,leg"
+    "Translation": "foot, leg"
   },
   {
     "Kana": "あした",
@@ -91,15 +91,15 @@
   },
   {
     "Kana": "あそこ",
-    "Kanji": "",
+    "Kanji": "彼処",
     "Romaji": "asoko",
-    "Translation": "over there"
+    "Translation": "over there (far from both)"
   },
   {
     "Kana": "あそぶ",
     "Kanji": "遊ぶ",
     "Romaji": "asobu",
-    "Translation": "to play,to make a visit"
+    "Translation": "to play, to make a visit"
   },
   {
     "Kana": "あたたかい",
@@ -120,69 +120,69 @@
     "Translation": "new"
   },
   {
-    "Kana": "あちら",
-    "Kanji": "",
-    "Romaji": "achira",
-    "Translation": "there"
-  },
-  {
     "Kana": "あつい",
     "Kanji": "暑い",
     "Romaji": "atsui",
-    "Translation": "hot"
+    "Translation": "hot (weather)"
   },
   {
     "Kana": "あつい",
     "Kanji": "熱い",
     "Romaji": "atsui",
-    "Translation": "hot to the touch"
+    "Translation": "hot (objects or feelings)"
   },
   {
     "Kana": "あつい",
     "Kanji": "厚い",
     "Romaji": "atsui",
-    "Translation": "kind, deep, thick"
+    "Translation": "thick, heavy (objects) kind, deep (feelings)"
+  },
+  {
+    "Kana": "あちら",
+    "Kanji": "彼方",
+    "Romaji": "achira",
+    "Translation": "that way, person (far from both) (formal)"
   },
   {
     "Kana": "あっち",
-    "Kanji": "",
+    "Kanji": "彼方",
     "Romaji": "atchi",
-    "Translation": "over there"
+    "Translation": "that way, person (far from both)"
   },
   {
     "Kana": "あと",
     "Kanji": "後",
     "Romaji": "ato",
-    "Translation": "afterwards"
+    "Translation": "rear (space), later (time)"
   },
   {
     "Kana": "あなた",
-    "Kanji": "",
+    "Kanji": "貴方",
     "Romaji": "anata",
-    "Translation": "you"
+    "Translation": "you (polite)"
   },
   {
     "Kana": "あに",
     "Kanji": "兄",
     "Romaji": "ani",
-    "Translation": "(humble) older brother"
+    "Translation": "older brother (humble)"
   },
   {
     "Kana": "あね",
     "Kanji": "姉",
     "Romaji": "ane",
-    "Translation": "(humble) older sister"
+    "Translation": "older sister (humble)"
   },
   {
     "Kana": "あの",
-    "Kanji": "",
+    "Kanji": "彼の",
     "Romaji": "ano",
-    "Translation": "that over there"
+    "Translation": "that (adj) (far from both)"
   },
   {
-    "Kana": "あの",
-    "Kanji": "",
-    "Romaji": "ano",
+    "Kana": "あのー",
+    "Kanji": "あの",
+    "Romaji": "anoo",
     "Translation": "um..."
   },
   {
@@ -193,9 +193,9 @@
   },
   {
     "Kana": "あびる",
-    "Kanji": "",
+    "Kanji": "浴びる",
     "Romaji": "abiru",
-    "Translation": "to bathe,to shower"
+    "Translation": "to bathe, to shower"
   },
   {
     "Kana": "あぶない",
@@ -211,9 +211,9 @@
   },
   {
     "Kana": "あまり",
-    "Kanji": "",
+    "Kanji": "余り",
     "Romaji": "amari",
-    "Translation": "not very"
+    "Translation": "not very often, not much"
   },
   {
     "Kana": "あめ",
@@ -225,7 +225,7 @@
     "Kana": "あめ",
     "Kanji": "飴",
     "Romaji": "ame",
-    "Translation": "candy"
+    "Translation": "hard candy"
   },
   {
     "Kana": "あらう",
@@ -235,9 +235,9 @@
   },
   {
     "Kana": "ある",
-    "Kanji": "",
+    "Kanji": "有る",
     "Romaji": "aru",
-    "Translation": "to be,to have (used for inanimate objects)"
+    "Translation": "to be, to have (inanimate objects)"
   },
   {
     "Kana": "あるく",
@@ -247,15 +247,21 @@
   },
   {
     "Kana": "あれ",
-    "Kanji": "",
+    "Kanji": "彼れ",
     "Romaji": "are",
-    "Translation": "that"
+    "Translation": "that (noun) (far from both)"
   },
   {
     "Kana": "よい",
-    "Kanji": "いい",
+    "Kanji": "良い",
     "Romaji": "yoi",
-    "Translation": "/  -good"
+    "Translation": "good, easy"
+  },
+  {
+    "Kana": "いい",
+    "Kanji": "善い",
+    "Romaji": "ii",
+    "Translation": "good"
   },
   {
     "Kana": "いいえ",
@@ -277,9 +283,9 @@
   },
   {
     "Kana": "いかが",
-    "Kanji": "",
+    "Kanji": "如何",
     "Romaji": "ikaga",
-    "Translation": "how"
+    "Translation": "how, what about"
   },
   {
     "Kana": "いく",
@@ -289,15 +295,15 @@
   },
   {
     "Kana": "いくつ",
-    "Kanji": "",
+    "Kanji": "幾つ",
     "Romaji": "ikutsu",
-    "Translation": "how many?,how old?"
+    "Translation": "how many (things), how old (children)"
   },
   {
     "Kana": "いくら",
-    "Kanji": "",
+    "Kanji": "幾ら",
     "Romaji": "ikura",
-    "Translation": "how much?"
+    "Translation": "how much, how many (values)"
   },
   {
     "Kana": "いけ",
@@ -313,7 +319,7 @@
   },
   {
     "Kana": "いす",
-    "Kanji": "",
+    "Kanji": "椅子",
     "Romaji": "isu",
     "Translation": "chair"
   },
@@ -321,7 +327,7 @@
     "Kana": "いそがしい",
     "Kanji": "忙しい",
     "Romaji": "isogashii",
-    "Translation": "busy,irritated"
+    "Translation": "busy (no time)"
   },
   {
     "Kana": "いたい",
@@ -339,19 +345,19 @@
     "Kana": "いちにち",
     "Kanji": "一日",
     "Romaji": "ichinichi",
-    "Translation": "(1) one day, (2) first of month"
+    "Translation": "one day, first of month"
   },
   {
     "Kana": "いちばん",
-    "Kanji": "",
+    "Kanji": "一番",
     "Romaji": "ichiban",
-    "Translation": "best,first"
+    "Translation": "first, number one"
   },
   {
     "Kana": "いつ",
-    "Kanji": "",
+    "Kanji": "何時",
     "Romaji": "itsu",
-    "Translation": "when"
+    "Translation": "when (dates)"
   },
   {
     "Kana": "いつか",
@@ -373,7 +379,7 @@
   },
   {
     "Kana": "いつも",
-    "Kanji": "",
+    "Kanji": "何時も",
     "Romaji": "itsumo",
     "Translation": "always"
   },
@@ -399,7 +405,7 @@
     "Kana": "いもうと",
     "Kanji": "妹",
     "Romaji": "imouto",
-    "Translation": "(humble) younger sister"
+    "Translation": "younger sister (humble)"
   },
   {
     "Kana": "いや",
@@ -417,13 +423,13 @@
     "Kana": "いる",
     "Kanji": "居る",
     "Romaji": "iru",
-    "Translation": "to be, to have (used for people and animals)"
+    "Translation": "to be, to have (animate objects)"
   },
   {
     "Kana": "いる",
     "Kanji": "要る",
     "Romaji": "iru",
-    "Translation": "to need"
+    "Translation": "to be necessary"
   },
   {
     "Kana": "いれる",
@@ -439,7 +445,7 @@
   },
   {
     "Kana": "いろいろ",
-    "Kanji": "",
+    "Kanji": "色々",
     "Romaji": "iroiro",
     "Translation": "various"
   },
@@ -453,13 +459,13 @@
     "Kana": "うしろ",
     "Kanji": "後ろ",
     "Romaji": "ushiro",
-    "Translation": "behind"
+    "Translation": "behind (time and space)"
   },
   {
     "Kana": "うすい",
     "Kanji": "薄い",
     "Romaji": "usui",
-    "Translation": "thin,weak"
+    "Translation": "thin, weak"
   },
   {
     "Kana": "うた",
@@ -495,7 +501,7 @@
     "Kana": "うるさい",
     "Kanji": "煩い",
     "Romaji": "urusai",
-    "Translation": "noisy,annoying"
+    "Translation": "noisy, annoying"
   },
   {
     "Kana": "うわぎ",
@@ -531,7 +537,7 @@
     "Kana": "ええ",
     "Kanji": "",
     "Romaji": "ee",
-    "Translation": "yes"
+    "Translation": "indeed"
   },
   {
     "Kana": "えき",
@@ -553,7 +559,7 @@
   },
   {
     "Kana": "おいしい",
-    "Kanji": "",
+    "Kanji": "美味しい",
     "Romaji": "oishii",
     "Translation": "delicious"
   },
@@ -567,13 +573,13 @@
     "Kana": "おおきい",
     "Kanji": "大きい",
     "Romaji": "ookii",
-    "Translation": "big"
+    "Translation": "big (adj)"
   },
   {
     "Kana": "おおきな",
     "Kanji": "大きな",
     "Romaji": "ookina",
-    "Translation": "big"
+    "Translation": "big (must be followed)"
   },
   {
     "Kana": "おおぜい",
@@ -585,7 +591,7 @@
     "Kana": "おかあさん",
     "Kanji": "お母さん",
     "Romaji": "okaasan",
-    "Translation": "(honorable) mother"
+    "Translation": "mother (honorable)"
   },
   {
     "Kana": "おかし",
@@ -615,7 +621,7 @@
     "Kana": "おくさん",
     "Kanji": "奥さん",
     "Romaji": "okusan",
-    "Translation": "(honorable) wife"
+    "Translation": "wife (honorable)"
   },
   {
     "Kana": "おさけ",
@@ -631,21 +637,21 @@
   },
   {
     "Kana": "おじいさん",
-    "Kanji": "伯父",
+    "Kanji": "お爺さん",
     "Romaji": "ojiisan",
-    "Translation": "/ ,  -grandfather,male senior citizen"
+    "Translation": "grandfather, old man"
   },
   {
     "Kana": "おしえる",
     "Kanji": "教える",
     "Romaji": "oshieru",
-    "Translation": "to teach,to tell"
+    "Translation": "to teach, to tell"
   },
   {
     "Kana": "おじさん",
-    "Kanji": "伯父",
+    "Kanji": "小父さん",
     "Romaji": "ojisan",
-    "Translation": "/ ,  -uncle,middle aged gentleman"
+    "Translation": "uncle, middle aged man"
   },
   {
     "Kana": "おす",
@@ -657,13 +663,13 @@
     "Kana": "おそい",
     "Kanji": "遅い",
     "Romaji": "osoi",
-    "Translation": "late,slow"
+    "Translation": "late, slow"
   },
   {
     "Kana": "おちゃ",
     "Kanji": "お茶",
     "Romaji": "ocha",
-    "Translation": "green tea"
+    "Translation": "tea (usually green)"
   },
   {
     "Kana": "おてあらい",
@@ -675,7 +681,7 @@
     "Kana": "おとうさん",
     "Kanji": "お父さん",
     "Romaji": "otousan",
-    "Translation": "(honorable) father"
+    "Translation": "father (honorable)"
   },
   {
     "Kana": "おとうと",
@@ -699,13 +705,13 @@
     "Kana": "おととい",
     "Kanji": "一昨日",
     "Romaji": "ototoi",
-    "Translation": "day before yesterday"
+    "Translation": "two days ago"
   },
   {
     "Kana": "おととし",
     "Kanji": "一昨年",
     "Romaji": "ototoshi",
-    "Translation": "year before last"
+    "Translation": "two years ago"
   },
   {
     "Kana": "おとな",
@@ -715,7 +721,7 @@
   },
   {
     "Kana": "おなか",
-    "Kanji": "",
+    "Kanji": "お腹",
     "Romaji": "onaka",
     "Translation": "stomach"
   },
@@ -729,25 +735,25 @@
     "Kana": "おにいさん",
     "Kanji": "お兄さん",
     "Romaji": "oniisan",
-    "Translation": "(honorable) older brother"
+    "Translation": "older brother (honorable)"
   },
   {
     "Kana": "おねえさん",
     "Kanji": "お姉さん",
     "Romaji": "oneesan",
-    "Translation": "(honorable) older sister"
+    "Translation": "older sister (honorable)"
   },
   {
     "Kana": "おばあさん",
-    "Kanji": "",
+    "Kanji": "お婆さん",
     "Romaji": "obaasan",
-    "Translation": "grandmother,female senior-citizen"
+    "Translation": "grandmother, old woman"
   },
   {
     "Kana": "おばさん",
-    "Kanji": "伯母さん",
+    "Kanji": "小母さん",
     "Romaji": "obasan",
-    "Translation": "/ ,  -aunt"
+    "Translation": "aunt, middle aged woman"
   },
   {
     "Kana": "おふろ",
@@ -769,9 +775,9 @@
   },
   {
     "Kana": "おまわりさん",
-    "Kanji": "",
+    "Kanji": "お巡りさん",
     "Romaji": "omawarisan",
-    "Translation": "friendly term for policeman"
+    "Translation": "policeman (friendly)"
   },
   {
     "Kana": "おもい",
@@ -781,9 +787,9 @@
   },
   {
     "Kana": "おもしろい",
-    "Kanji": "",
+    "Kanji": "面白い",
     "Romaji": "omoshiroi",
-    "Translation": "interesting"
+    "Translation": "interesting, funny"
   },
   {
     "Kana": "およぐ",
@@ -871,13 +877,13 @@
   },
   {
     "Kana": "かかる",
-    "Kanji": "",
+    "Kanji": "掛かる",
     "Romaji": "kakaru",
-    "Translation": "to take time or money"
+    "Translation": "to take time or money, hang (mediopassive)"
   },
   {
     "Kana": "かぎ",
-    "Kanji": "",
+    "Kanji": "鍵",
     "Romaji": "kagi",
     "Translation": "key"
   },
@@ -895,9 +901,9 @@
   },
   {
     "Kana": "かける",
-    "Kanji": "",
+    "Kanji": "掛ける",
     "Romaji": "kakeru",
-    "Translation": "to call by phone"
+    "Translation": "to call by phone, hang (active)"
   },
   {
     "Kana": "かさ",
@@ -933,7 +939,7 @@
     "Kana": "かた",
     "Kanji": "方",
     "Romaji": "kata",
-    "Translation": "person, way of doing"
+    "Translation": "way, method, person"
   },
   {
     "Kana": "がっこう",
@@ -957,19 +963,19 @@
     "Kana": "かど",
     "Kanji": "角",
     "Romaji": "kado",
-    "Translation": "a corner"
+    "Translation": "corner, edge"
   },
   {
     "Kana": "かばん",
-    "Kanji": "",
+    "Kanji": "鞄",
     "Romaji": "kaban",
-    "Translation": "bag,basket"
+    "Translation": "bag"
   },
   {
     "Kana": "かびん",
     "Kanji": "花瓶",
     "Romaji": "kabin",
-    "Translation": "a vase"
+    "Translation": "vase"
   },
   {
     "Kana": "かみ",
@@ -1011,7 +1017,7 @@
     "Kana": "かるい",
     "Kanji": "軽い",
     "Romaji": "karui",
-    "Translation": "light"
+    "Translation": "light, mild, easy"
   },
   {
     "Kana": "カレー",
@@ -1027,15 +1033,15 @@
   },
   {
     "Kana": "かわ",
-    "Kanji": "川",
+    "Kanji": "川 / 河",
     "Romaji": "kawa",
-    "Translation": "/ ,  -river"
+    "Translation": "river"
   },
   {
     "Kana": "かわいい",
-    "Kanji": "",
+    "Kanji": "可愛い",
     "Romaji": "kawaii",
-    "Translation": "cute"
+    "Translation": "cute, beloved"
   },
   {
     "Kana": "かんじ",
@@ -1047,19 +1053,19 @@
     "Kana": "き",
     "Kanji": "木",
     "Romaji": "ki",
-    "Translation": "tree,wood"
+    "Translation": "tree, wood"
   },
   {
     "Kana": "きいろ",
     "Kanji": "黄色",
     "Romaji": "kiiro",
-    "Translation": "yellow"
+    "Translation": "yellow (noun)"
   },
   {
     "Kana": "きいろい",
     "Kanji": "黄色い",
     "Romaji": "kiiroi",
-    "Translation": "yellow"
+    "Translation": "yellow (adj)"
   },
   {
     "Kana": "きえる",
@@ -1071,7 +1077,7 @@
     "Kana": "きく",
     "Kanji": "聞く",
     "Romaji": "kiku",
-    "Translation": "to hear,to listen to,to ask"
+    "Translation": "to hear, to listen to, to ask"
   },
   {
     "Kana": "きた",
@@ -1095,7 +1101,7 @@
     "Kana": "きっさてん",
     "Kanji": "喫茶店",
     "Romaji": "kissaten",
-    "Translation": "coffee lounge"
+    "Translation": "coffee shop, tea house"
   },
   {
     "Kana": "きって",
@@ -1116,10 +1122,10 @@
     "Translation": "yesterday"
   },
   {
-    "Kana": "く",
+    "Kana": "きゅう",
     "Kanji": "九",
-    "Romaji": "ku",
-    "Translation": "/  -nine"
+    "Romaji": "kyuu",
+    "Translation": "nine"
   },
   {
     "Kana": "ぎゅうにく",
@@ -1149,7 +1155,7 @@
     "Kana": "きょうだい",
     "Kanji": "兄弟",
     "Romaji": "kyoudai",
-    "Translation": "(humble) siblings"
+    "Translation": "siblings (humble)"
   },
   {
     "Kana": "きょねん",
@@ -1173,25 +1179,25 @@
     "Kana": "きる",
     "Kanji": "着る",
     "Romaji": "kiru",
-    "Translation": "to put on from the shoulders down"
+    "Translation": "to put on, wear from the shoulders down"
   },
   {
     "Kana": "きれい",
-    "Kanji": "",
+    "Kanji": "綺麗",
     "Romaji": "kirei",
-    "Translation": "pretty,clean"
+    "Translation": "pretty, clean"
   },
   {
     "Kana": "キログラム",
-    "Kanji": "キロ",
+    "Kanji": "キロ瓦",
     "Romaji": "kiroguramu",
-    "Translation": "/  -kilogram"
+    "Translation": "kilogram"
   },
   {
     "Kana": "キロメートル",
-    "Kanji": "キロ",
+    "Kanji": "粁",
     "Romaji": "kiromeetoru",
-    "Translation": "/  -kilometre"
+    "Translation": "kilometre"
   },
   {
     "Kana": "ぎんこう",
@@ -1202,7 +1208,7 @@
   {
     "Kana": "きんようび",
     "Kanji": "金曜日",
-    "Romaji": "kinyoubi",
+    "Romaji": "kin'youbi",
     "Translation": "Friday"
   },
   {
@@ -1213,7 +1219,7 @@
   },
   {
     "Kana": "ください",
-    "Kanji": "",
+    "Kanji": "下さい",
     "Romaji": "kudasai",
     "Translation": "please"
   },
@@ -1227,7 +1233,7 @@
     "Kana": "くち",
     "Kanji": "口",
     "Romaji": "kuchi",
-    "Translation": "mouth,opening"
+    "Translation": "mouth, opening"
   },
   {
     "Kana": "くつ",
@@ -1257,7 +1263,7 @@
     "Kana": "くもる",
     "Kanji": "曇る",
     "Romaji": "kumoru",
-    "Translation": "to become cloudy,to become dim"
+    "Translation": "to become cloudy, to become dim"
   },
   {
     "Kana": "くらい",
@@ -1273,7 +1279,7 @@
   },
   {
     "Kana": "グラム",
-    "Kanji": "",
+    "Kanji": "下さい",
     "Romaji": "guramu",
     "Translation": "gram"
   },
@@ -1287,19 +1293,19 @@
     "Kana": "くるま",
     "Kanji": "車",
     "Romaji": "kuruma",
-    "Translation": "car,vehicle"
+    "Translation": "car, vehicle"
   },
   {
     "Kana": "くろ",
     "Kanji": "黒",
     "Romaji": "kuro",
-    "Translation": "black"
+    "Translation": "black (noun)"
   },
   {
     "Kana": "くろい",
     "Kanji": "黒い",
     "Romaji": "kuroi",
-    "Translation": "black"
+    "Translation": "black (adj)"
   },
   {
     "Kana": "けいかん",
@@ -1317,13 +1323,13 @@
     "Kana": "けす",
     "Kanji": "消す",
     "Romaji": "kesu",
-    "Translation": "to erase,to turn off power"
+    "Translation": "to erase, to turn off power"
   },
   {
     "Kana": "けっこう",
     "Kanji": "結構",
     "Romaji": "kekkou",
-    "Translation": "splendid,enough"
+    "Translation": "splendid, enough"
   },
   {
     "Kana": "けっこん",
@@ -1389,17 +1395,17 @@
     "Kana": "コート",
     "Kanji": "",
     "Romaji": "kooto",
-    "Translation": "coat,tennis court"
+    "Translation": "coat, sports court"
   },
   {
     "Kana": "コーヒー",
-    "Kanji": "",
+    "Kanji": "珈琲",
     "Romaji": "koohii",
     "Translation": "coffee"
   },
   {
     "Kana": "ここ",
-    "Kanji": "",
+    "Kanji": "此処",
     "Romaji": "koko",
     "Translation": "here"
   },
@@ -1435,21 +1441,21 @@
   },
   {
     "Kana": "こちら",
-    "Kanji": "",
+    "Kanji": "此方",
     "Romaji": "kochira",
-    "Translation": "this person or way"
+    "Translation": "this way, person (near speaker) (formal)"
   },
   {
     "Kana": "こっち",
-    "Kanji": "",
+    "Kanji": "此方",
     "Romaji": "kotchi",
-    "Translation": "this person or way"
+    "Translation": "this way, person (near spaker)"
   },
   {
     "Kana": "コップ",
     "Kanji": "",
     "Romaji": "koppu",
-    "Translation": "a glass"
+    "Translation": "drinking glass"
   },
   {
     "Kana": "ことし",
@@ -1461,7 +1467,7 @@
     "Kana": "ことば",
     "Kanji": "言葉",
     "Romaji": "kotoba",
-    "Translation": "word,language"
+    "Translation": "word, language"
   },
   {
     "Kana": "こども",
@@ -1471,33 +1477,33 @@
   },
   {
     "Kana": "この",
-    "Kanji": "",
+    "Kanji": "此方",
     "Romaji": "kono",
-    "Translation": "this"
+    "Translation": "this (adj) (near speaker)"
   },
   {
     "Kana": "ごはん",
     "Kanji": "御飯",
     "Romaji": "gohan",
-    "Translation": "cooked rice,meal"
+    "Translation": "cooked rice, meal"
   },
   {
-    "Kana": "コピー",
+    "Kana": "コピーする",
     "Kanji": "",
-    "Romaji": "kopii",
-    "Translation": "する -to copy"
+    "Romaji": "kopiisuru",
+    "Translation": "to copy"
   },
   {
     "Kana": "こまる",
     "Kanji": "困る",
     "Romaji": "komaru",
-    "Translation": "to be worried"
+    "Translation": "to have trouble, to be in trouble"
   },
   {
     "Kana": "これ",
-    "Kanji": "",
+    "Kanji": "此れ",
     "Romaji": "kore",
-    "Translation": "this"
+    "Translation": "this (noun) (near speaker)"
   },
   {
     "Kana": "こんげつ",
@@ -1515,7 +1521,7 @@
     "Kana": "こんな",
     "Kanji": "",
     "Romaji": "konna",
-    "Translation": "such"
+    "Translation": "like this (near speaker)"
   },
   {
     "Kana": "こんばん",
@@ -1527,7 +1533,7 @@
     "Kana": "さあ",
     "Kanji": "",
     "Romaji": "saa",
-    "Translation": "well…"
+    "Translation": "now, well, dunno…"
   },
   {
     "Kana": "さいふ",
@@ -1545,7 +1551,7 @@
     "Kana": "さき",
     "Kanji": "先",
     "Romaji": "saki",
-    "Translation": "the future,previous"
+    "Translation": "before, previous"
   },
   {
     "Kana": "さく",
@@ -1557,13 +1563,13 @@
     "Kana": "さくぶん",
     "Kanji": "作文",
     "Romaji": "sakubun",
-    "Translation": "composition,writing"
+    "Translation": "composition, writing"
   },
   {
     "Kana": "さす",
     "Kanji": "差す",
     "Romaji": "sasu",
-    "Translation": "to stretch out hands,to raise an umbrella"
+    "Translation": "raise hand, hold over head"
   },
   {
     "Kana": "ざっし",
@@ -1605,7 +1611,7 @@
     "Kana": "よん",
     "Kanji": "四",
     "Romaji": "yon",
-    "Translation": "/  -four"
+    "Translation": "four"
   },
   {
     "Kana": "しお",
@@ -1615,7 +1621,7 @@
   },
   {
     "Kana": "しかし",
-    "Kanji": "",
+    "Kanji": "然し",
     "Romaji": "shikashi",
     "Translation": "however"
   },
@@ -1653,7 +1659,7 @@
     "Kana": "なな",
     "Kanji": "七",
     "Romaji": "nana",
-    "Translation": "/  -seven"
+    "Translation": "seven"
   },
   {
     "Kana": "しつもん",
@@ -1695,13 +1701,13 @@
     "Kana": "しまる",
     "Kanji": "閉まる",
     "Romaji": "shimaru",
-    "Translation": "to close,to be closed"
+    "Translation": "to close (mediopasive)"
   },
   {
     "Kana": "しめる",
     "Kanji": "閉める",
     "Romaji": "shimeru",
-    "Translation": "to close something"
+    "Translation": "to close (active)"
   },
   {
     "Kana": "しめる",
@@ -1711,9 +1717,9 @@
   },
   {
     "Kana": "じゃあ",
-    "Kanji": "じゃ",
+    "Kanji": "",
     "Romaji": "jaa",
-    "Translation": "/  -well then…"
+    "Translation": "well, then, so…"
   },
   {
     "Kana": "しゃしん",
@@ -1734,16 +1740,16 @@
     "Translation": "shower"
   },
   {
-    "Kana": "とお",
+    "Kana": "じゅう",
     "Kanji": "十",
-    "Romaji": "too",
-    "Translation": "/  -ten"
+    "Romaji": "juu",
+    "Translation": "ten"
   },
   {
     "Kana": "じゅぎょう",
     "Kanji": "授業",
     "Romaji": "jugyou",
-    "Translation": "lesson,class work"
+    "Translation": "lesson, class"
   },
   {
     "Kana": "しゅくだい",
@@ -1761,11 +1767,11 @@
     "Kana": "じょうぶ",
     "Kanji": "丈夫",
     "Romaji": "joubu",
-    "Translation": "strong,durable"
+    "Translation": "hero, robustness"
   },
   {
     "Kana": "しょうゆ",
-    "Kanji": "",
+    "Kanji": "醤油",
     "Romaji": "shouyu",
     "Translation": "soy sauce"
   },
@@ -1785,13 +1791,13 @@
     "Kana": "しろ",
     "Kanji": "白",
     "Romaji": "shiro",
-    "Translation": "white"
+    "Translation": "white (noun)"
   },
   {
     "Kana": "しろい",
     "Kanji": "白い",
     "Romaji": "shiroi",
-    "Translation": "white"
+    "Translation": "white (adj)"
   },
   {
     "Kana": "しんぶん",
@@ -1809,7 +1815,7 @@
     "Kana": "すう",
     "Kanji": "吸う",
     "Romaji": "suu",
-    "Translation": "to smoke,to suck"
+    "Translation": "to smoke, to suck"
   },
   {
     "Kana": "スカート",
@@ -1821,17 +1827,17 @@
     "Kana": "すき",
     "Kanji": "好き",
     "Romaji": "suki",
-    "Translation": "likeable"
+    "Translation": "liked"
   },
   {
     "Kana": "すくない",
     "Kanji": "少ない",
     "Romaji": "sukunai",
-    "Translation": "a few"
+    "Translation": "few"
   },
   {
     "Kana": "すぐに",
-    "Kanji": "",
+    "Kanji": "直ぐに",
     "Romaji": "suguni",
     "Translation": "instantly"
   },
@@ -1839,7 +1845,7 @@
     "Kana": "すこし",
     "Kanji": "少し",
     "Romaji": "sukoshi",
-    "Translation": "few"
+    "Translation": "a few"
   },
   {
     "Kana": "すずしい",
@@ -1851,7 +1857,7 @@
     "Kana": "ストーブ",
     "Kanji": "",
     "Romaji": "sutoobu",
-    "Translation": "heater"
+    "Translation": "heater, stove"
   },
   {
     "Kana": "スプーン",
@@ -1885,7 +1891,7 @@
   },
   {
     "Kana": "する",
-    "Kanji": "",
+    "Kanji": "為る",
     "Romaji": "suru",
     "Translation": "to do"
   },
@@ -1899,7 +1905,7 @@
     "Kana": "せ",
     "Kanji": "背",
     "Romaji": "se",
-    "Translation": "height,stature"
+    "Translation": "height, rear, back (body part)"
   },
   {
     "Kana": "せいと",
@@ -1915,7 +1921,7 @@
   },
   {
     "Kana": "せっけん",
-    "Kanji": "",
+    "Kanji": "石鹸",
     "Romaji": "sekken",
     "Translation": "soap"
   },
@@ -1933,7 +1939,7 @@
   },
   {
     "Kana": "ゼロ",
-    "Kanji": "",
+    "Kanji": "零",
     "Romaji": "zero",
     "Translation": "zero"
   },
@@ -1959,7 +1965,7 @@
     "Kana": "せんせい",
     "Kanji": "先生",
     "Romaji": "sensei",
-    "Translation": "teacher,doctor"
+    "Translation": "teacher, doctor"
   },
   {
     "Kana": "せんたく",
@@ -1981,27 +1987,27 @@
   },
   {
     "Kana": "そして",
-    "Kanji": "そうして",
+    "Kanji": "然して",
     "Romaji": "soshite",
-    "Translation": "/  -and"
+    "Translation": "and, thus"
   },
   {
     "Kana": "そこ",
-    "Kanji": "",
+    "Kanji": "其処",
     "Romaji": "soko",
-    "Translation": "that place"
+    "Translation": "that place (near addressee)"
   },
   {
     "Kana": "そちら",
-    "Kanji": "",
+    "Kanji": "其方",
     "Romaji": "sochira",
-    "Translation": "over there"
+    "Translation": "that way, person (near addressee) (formal)"
   },
   {
     "Kana": "そっち",
-    "Kanji": "",
+    "Kanji": "其方",
     "Romaji": "sotchi",
-    "Translation": "over there"
+    "Translation": "that way, person (near addressee)"
   },
   {
     "Kana": "そと",
@@ -2011,15 +2017,15 @@
   },
   {
     "Kana": "その",
-    "Kanji": "",
+    "Kanji": "其の",
     "Romaji": "sono",
-    "Translation": "that"
+    "Translation": "that (adj) (near addressee)"
   },
   {
     "Kana": "そば",
-    "Kanji": "",
+    "Kanji": "側",
     "Romaji": "soba",
-    "Translation": "near,beside"
+    "Translation": "near, beside"
   },
   {
     "Kana": "そら",
@@ -2029,21 +2035,21 @@
   },
   {
     "Kana": "それ",
-    "Kanji": "",
+    "Kanji": "其れ",
     "Romaji": "sore",
-    "Translation": "that"
+    "Translation": "that (noun) (near addressee)"
   },
   {
     "Kana": "それから",
-    "Kanji": "",
+    "Kanji": "其れから",
     "Romaji": "sorekara",
     "Translation": "after that"
   },
   {
     "Kana": "それでは",
-    "Kanji": "",
-    "Romaji": "soredeha",
-    "Translation": "in that situation"
+    "Kanji": "其れでは",
+    "Romaji": "soredewa",
+    "Translation": "then, if so"
   },
   {
     "Kana": "だいがく",
@@ -2061,13 +2067,13 @@
     "Kana": "だいじょうぶ",
     "Kanji": "大丈夫",
     "Romaji": "daijoubu",
-    "Translation": "all right"
+    "Translation": "all right, okay"
   },
   {
     "Kana": "だいすき",
     "Kanji": "大好き",
     "Romaji": "daisuki",
-    "Translation": "to be very likeable"
+    "Translation": "love"
   },
   {
     "Kana": "たいせつ",
@@ -2083,27 +2089,21 @@
   },
   {
     "Kana": "たいへん",
-    "Kanji": "",
+    "Kanji": "大変",
     "Romaji": "taihen",
-    "Translation": "very"
-  },
-  {
-    "Kana": "たいへん",
-    "Kanji": "",
-    "Romaji": "taihen",
-    "Translation": "difficult situation"
+    "Translation": "serious, grave, very, disaster"
   },
   {
     "Kana": "たかい",
     "Kanji": "高い",
     "Romaji": "takai",
-    "Translation": "tall, expensive"
+    "Translation": "tall, superior, expensive"
   },
   {
     "Kana": "たくさん",
-    "Kanji": "",
+    "Kanji": "沢山",
     "Romaji": "takusan",
-    "Translation": "many"
+    "Translation": "a lot of, much"
   },
   {
     "Kana": "タクシー",
@@ -2115,7 +2115,7 @@
     "Kana": "だす",
     "Kanji": "出す",
     "Romaji": "dasu",
-    "Translation": "to put out"
+    "Translation": "to get out, submit"
   },
   {
     "Kana": "たつ",
@@ -2125,9 +2125,9 @@
   },
   {
     "Kana": "たて",
-    "Kanji": "",
+    "Kanji": "縦",
     "Romaji": "tate",
-    "Translation": "length,height"
+    "Translation": "length, height"
   },
   {
     "Kana": "たてもの",
@@ -2149,15 +2149,15 @@
   },
   {
     "Kana": "たばこ",
-    "Kanji": "",
+    "Kanji": "タバコ",
     "Romaji": "tabako",
-    "Translation": "tobacco,cigarettes"
+    "Translation": "tobacco, cigarettes"
   },
   {
     "Kana": "たぶん",
-    "Kanji": "",
+    "Kanji": "多分",
     "Romaji": "tabun",
-    "Translation": "probably"
+    "Translation": "probably, maybe"
   },
   {
     "Kana": "たべもの",
@@ -2197,7 +2197,7 @@
   },
   {
     "Kana": "だんだん",
-    "Kanji": "",
+    "Kanji": "段々",
     "Romaji": "dandan",
     "Translation": "gradually"
   },
@@ -2205,37 +2205,37 @@
     "Kana": "ちいさい",
     "Kanji": "小さい",
     "Romaji": "chiisai",
-    "Translation": "little"
+    "Translation": "little (adj)"
   },
   {
     "Kana": "ちいさな",
     "Kanji": "小さな",
     "Romaji": "chiisana",
-    "Translation": "little"
+    "Translation": "little (adnominal)"
   },
   {
     "Kana": "ちかい",
     "Kanji": "近い",
     "Romaji": "chikai",
-    "Translation": "near"
-  },
-  {
-    "Kana": "ちがう",
-    "Kanji": "違う",
-    "Romaji": "chigau",
-    "Translation": "to differ"
+    "Translation": "near, close, similar"
   },
   {
     "Kana": "ちかく",
     "Kanji": "近く",
     "Romaji": "chikaku",
-    "Translation": "near"
+    "Translation": "soon, vicinity"
+  },
+  {
+    "Kana": "ちがう",
+    "Kanji": "違う",
+    "Romaji": "chigau",
+    "Translation": "to differ (disagree)"
   },
   {
     "Kana": "ちかてつ",
     "Kanji": "地下鉄",
     "Romaji": "chikatetsu",
-    "Translation": "underground train"
+    "Translation": "underground railway"
   },
   {
     "Kana": "ちず",
@@ -2247,25 +2247,25 @@
     "Kana": "ちゃいろ",
     "Kanji": "茶色",
     "Romaji": "chairo",
-    "Translation": "brown"
+    "Translation": "brown (noun)"
   },
   {
     "Kana": "ちゃわん",
-    "Kanji": "",
+    "Kanji": "茶碗",
     "Romaji": "chawan",
-    "Translation": "rice bowl"
+    "Translation": "rice bowl, teacup"
   },
   {
     "Kana": "ちょうど",
-    "Kanji": "",
+    "Kanji": "丁度",
     "Romaji": "choudo",
     "Translation": "exactly"
   },
   {
     "Kana": "ちょっと",
-    "Kanji": "",
+    "Kanji": "鳥渡",
     "Romaji": "chotto",
-    "Translation": "somewhat"
+    "Translation": "somewhat, slightly"
   },
   {
     "Kana": "ついたち",
@@ -2311,7 +2311,7 @@
   },
   {
     "Kana": "つける",
-    "Kanji": "",
+    "Kanji": "点ける",
     "Romaji": "tsukeru",
     "Translation": "to turn on"
   },
@@ -2319,11 +2319,11 @@
     "Kana": "つとめる",
     "Kanji": "勤める",
     "Romaji": "tsutomeru",
-    "Translation": "to work for someone"
+    "Translation": "to work for"
   },
   {
     "Kana": "つまらない",
-    "Kanji": "",
+    "Kanji": "詰まらない",
     "Romaji": "tsumaranai",
     "Translation": "boring"
   },
@@ -2358,14 +2358,8 @@
     "Translation": "table"
   },
   {
-    "Kana": "テープレコーダー",
-    "Kanji": "",
-    "Romaji": "teepurekoodaa",
-    "Translation": "tape recorder"
-  },
-  {
     "Kana": "でかける",
-    "Kanji": "出かける",
+    "Kanji": "出掛ける",
     "Romaji": "dekakeru",
     "Translation": "to go out"
   },
@@ -2377,9 +2371,9 @@
   },
   {
     "Kana": "できる",
-    "Kanji": "",
+    "Kanji": "出来る",
     "Romaji": "dekiru",
-    "Translation": "to be able to"
+    "Translation": "to be able to do"
   },
   {
     "Kana": "でぐち",
@@ -2392,12 +2386,6 @@
     "Kanji": "",
     "Romaji": "tesuto",
     "Translation": "test"
-  },
-  {
-    "Kana": "では",
-    "Kanji": "",
-    "Romaji": "deha",
-    "Translation": "with that..."
   },
   {
     "Kana": "デパート",
@@ -2415,7 +2403,7 @@
     "Kana": "でる",
     "Kanji": "出る",
     "Romaji": "deru",
-    "Translation": "to appear,to leave"
+    "Translation": "to leave, come forth"
   },
   {
     "Kana": "テレビ",
@@ -2433,7 +2421,7 @@
     "Kana": "でんき",
     "Kanji": "電気",
     "Romaji": "denki",
-    "Translation": "electricity,electric light"
+    "Translation": "electricity, electric light"
   },
   {
     "Kana": "でんしゃ",
@@ -2467,21 +2455,21 @@
   },
   {
     "Kana": "どう",
-    "Kanji": "",
+    "Kanji": "如何",
     "Romaji": "dou",
-    "Translation": "how,in what way"
+    "Translation": "how, in what manner"
   },
   {
     "Kana": "どうして",
-    "Kanji": "",
+    "Kanji": "如何して",
     "Romaji": "doushite",
-    "Translation": "for what reason"
+    "Translation": "why, for what reason"
   },
   {
     "Kana": "どうぞ",
-    "Kanji": "",
+    "Kanji": "如何ぞ",
     "Romaji": "douzo",
-    "Translation": "please"
+    "Translation": "hope, please"
   },
   {
     "Kana": "どうぶつ",
@@ -2491,9 +2479,9 @@
   },
   {
     "Kana": "どうも",
-    "Kanji": "",
+    "Kanji": "如何も",
     "Romaji": "doumo",
-    "Translation": "thanks"
+    "Translation": "thanks, sorry"
   },
   {
     "Kana": "とおい",
@@ -2505,7 +2493,7 @@
     "Kana": "とおか",
     "Kanji": "十日",
     "Romaji": "tooka",
-    "Translation": "ten days,the tenth day"
+    "Translation": "ten days, the tenth day"
   },
   {
     "Kana": "ときどき",
@@ -2517,11 +2505,11 @@
     "Kana": "とけい",
     "Kanji": "時計",
     "Romaji": "tokei",
-    "Translation": "watch,clock"
+    "Translation": "watch, clock"
   },
   {
     "Kana": "どこ",
-    "Kanji": "",
+    "Kanji": "何処",
     "Romaji": "doko",
     "Translation": "where"
   },
@@ -2545,25 +2533,25 @@
   },
   {
     "Kana": "どちら",
-    "Kanji": "",
+    "Kanji": "何方",
     "Romaji": "dochira",
-    "Translation": "which of two"
+    "Translation": "which way, which of two (formal)"
   },
   {
     "Kana": "どっち",
-    "Kanji": "",
+    "Kanji": "何方",
     "Romaji": "dotchi",
-    "Translation": "which"
+    "Translation": "which way, which of two"
   },
   {
     "Kana": "とても",
-    "Kanji": "",
+    "Kanji": "迚も",
     "Romaji": "totemo",
     "Translation": "very"
   },
   {
     "Kana": "どなた",
-    "Kanji": "",
+    "Kanji": "何方",
     "Romaji": "donata",
     "Translation": "who"
   },
@@ -2575,15 +2563,15 @@
   },
   {
     "Kana": "どの",
-    "Kanji": "",
+    "Kanji": "何の",
     "Romaji": "dono",
-    "Translation": "which"
+    "Translation": "which, what"
   },
   {
     "Kana": "とぶ",
     "Kanji": "飛ぶ",
     "Romaji": "tobu",
-    "Translation": "to fly,to hop"
+    "Translation": "to fly, to hop"
   },
   {
     "Kana": "とまる",
@@ -2629,7 +2617,7 @@
   },
   {
     "Kana": "どれ",
-    "Kanji": "",
+    "Kanji": "何れ",
     "Romaji": "dore",
     "Translation": "which (of three or more)"
   },
@@ -2655,7 +2643,7 @@
     "Kana": "なく",
     "Kanji": "鳴く",
     "Romaji": "naku",
-    "Translation": "animal noise. to chirp, roar or croak etc."
+    "Translation": "animal noise"
   },
   {
     "Kana": "なくす",
@@ -2665,9 +2653,9 @@
   },
   {
     "Kana": "なぜ",
-    "Kanji": "",
+    "Kanji": "何故",
     "Romaji": "naze",
-    "Translation": "why"
+    "Translation": "why (formal)"
   },
   {
     "Kana": "なつ",
@@ -2683,7 +2671,7 @@
   },
   {
     "Kana": "など",
-    "Kanji": "",
+    "Kanji": "等",
     "Romaji": "nado",
     "Translation": "et cetera"
   },
@@ -2697,7 +2685,7 @@
     "Kana": "なのか",
     "Kanji": "七日",
     "Romaji": "nanoka",
-    "Translation": "seven days,the seventh day"
+    "Translation": "seven days, the seventh day"
   },
   {
     "Kana": "なまえ",
@@ -2715,25 +2703,31 @@
     "Kana": "ならぶ",
     "Kanji": "並ぶ",
     "Romaji": "narabu",
-    "Translation": "to line up,to stand in a line"
+    "Translation": "to line up, to queue up (mediopassive)"
   },
   {
     "Kana": "ならべる",
     "Kanji": "並べる",
     "Romaji": "naraberu",
-    "Translation": "to line up,to set up"
+    "Translation": "to line up, to set up (active)"
   },
   {
     "Kana": "なる",
-    "Kanji": "",
+    "Kanji": "成る",
     "Romaji": "naru",
-    "Translation": "to become"
+    "Translation": "to become, to be achieved (mediopassive)"
+  },
+  {
+    "Kana": "なす",
+    "Kanji": "成す",
+    "Romaji": "nasu",
+    "Translation": "to accomplish, to form (active)"
   },
   {
     "Kana": "なに",
     "Kanji": "何",
     "Romaji": "nani",
-    "Translation": "/  -what"
+    "Translation": "what"
   },
   {
     "Kana": "に",
@@ -2745,7 +2739,7 @@
     "Kana": "にぎやか",
     "Kanji": "賑やか",
     "Romaji": "nigiyaka",
-    "Translation": "bustling,busy"
+    "Translation": "bustling, busy"
   },
   {
     "Kana": "にく",
@@ -2799,7 +2793,7 @@
     "Kana": "ネクタイ",
     "Kanji": "",
     "Romaji": "nekutai",
-    "Translation": "tie,necktie"
+    "Translation": "tie, necktie"
   },
   {
     "Kana": "ねこ",
@@ -2811,7 +2805,7 @@
     "Kana": "ねる",
     "Kanji": "寝る",
     "Romaji": "neru",
-    "Translation": "to go to bed,to sleep"
+    "Translation": "to go to bed, to sleep"
   },
   {
     "Kana": "ノート",
@@ -2823,13 +2817,13 @@
     "Kana": "のぼる",
     "Kanji": "登る",
     "Romaji": "noboru",
-    "Translation": "to climb"
+    "Translation": "to go up, climb"
   },
   {
     "Kana": "のみもの",
     "Kanji": "飲み物",
     "Romaji": "nomimono",
-    "Translation": "a drink"
+    "Translation": "drink"
   },
   {
     "Kana": "のむ",
@@ -2841,7 +2835,7 @@
     "Kana": "のる",
     "Kanji": "乗る",
     "Romaji": "noru",
-    "Translation": "to get on,to ride"
+    "Translation": "to get on, to ride"
   },
   {
     "Kana": "は",
@@ -2871,7 +2865,7 @@
     "Kana": "はいる",
     "Kanji": "入る",
     "Romaji": "hairu",
-    "Translation": "to enter,to contain"
+    "Translation": "to enter, to contain"
   },
   {
     "Kana": "はがき",
@@ -2881,9 +2875,9 @@
   },
   {
     "Kana": "はく",
-    "Kanji": "",
+    "Kanji": "穿く",
     "Romaji": "haku",
-    "Translation": "to wear,to put on trousers"
+    "Translation": "to wear on the lower body"
   },
   {
     "Kana": "はこ",
@@ -2899,7 +2893,7 @@
   },
   {
     "Kana": "はし",
-    "Kanji": "",
+    "Kanji": "箸",
     "Romaji": "hashi",
     "Translation": "chopsticks"
   },
@@ -2911,9 +2905,9 @@
   },
   {
     "Kana": "はじめ",
-    "Kanji": "初め",
+    "Kanji": "始め / 初め",
     "Romaji": "hajime",
-    "Translation": "/ ,  -beginning"
+    "Translation": "beginning, origin"
   },
   {
     "Kana": "はじめて",
@@ -2943,7 +2937,7 @@
     "Kana": "はたち",
     "Kanji": "二十歳",
     "Romaji": "hatachi",
-    "Translation": "20 years old,20th year"
+    "Translation": "20 years old, 20th year"
   },
   {
     "Kana": "はたらく",
@@ -2961,7 +2955,7 @@
     "Kana": "はつか",
     "Kanji": "二十日",
     "Romaji": "hatsuka",
-    "Translation": "twenty days,twentieth"
+    "Translation": "twenty days, twentieth day"
   },
   {
     "Kana": "はな",
@@ -2979,7 +2973,7 @@
     "Kana": "はなし",
     "Kanji": "話",
     "Romaji": "hanashi",
-    "Translation": "talk,story"
+    "Translation": "talk, story"
   },
   {
     "Kana": "はなす",
@@ -2997,7 +2991,7 @@
     "Kana": "はやい",
     "Kanji": "速い",
     "Romaji": "hayai",
-    "Translation": "quick"
+    "Translation": "fast, quick"
   },
   {
     "Kana": "はる",
@@ -3081,13 +3075,13 @@
     "Kana": "ひく",
     "Kanji": "弾く",
     "Romaji": "hiku",
-    "Translation": "to play an instrument with strings, including piano"
+    "Translation": "to play an instrument with strings or keys"
   },
   {
     "Kana": "ひくい",
     "Kanji": "低い",
     "Romaji": "hikui",
-    "Translation": "short,low"
+    "Translation": "short, low"
   },
   {
     "Kana": "ひこうき",
@@ -3165,7 +3159,7 @@
     "Kana": "ひろい",
     "Kanji": "広い",
     "Romaji": "hiroi",
-    "Translation": "spacious,wide"
+    "Translation": "spacious, wide"
   },
   {
     "Kana": "フィルム",
@@ -3231,7 +3225,7 @@
     "Kana": "ふとい",
     "Kanji": "太い",
     "Romaji": "futoi",
-    "Translation": "fat"
+    "Translation": "fat, thick, bold"
   },
   {
     "Kana": "ふゆ",
@@ -3243,17 +3237,17 @@
     "Kana": "ふる",
     "Kanji": "降る",
     "Romaji": "furu",
-    "Translation": "to fall, e.g. rain or snow"
+    "Translation": "to fall from the sky"
   },
   {
     "Kana": "ふるい",
     "Kanji": "古い",
     "Romaji": "furui",
-    "Translation": "old (not used for people)"
+    "Translation": "old (objects)"
   },
   {
     "Kana": "ふろ",
-    "Kanji": "",
+    "Kanji": "風呂",
     "Romaji": "furo",
     "Translation": "bath"
   },
@@ -3261,7 +3255,7 @@
     "Kana": "ぶんしょう",
     "Kanji": "文章",
     "Romaji": "bunshou",
-    "Translation": "sentence,text"
+    "Translation": "sentence, text"
   },
   {
     "Kana": "ページ",
@@ -3315,7 +3309,7 @@
     "Kana": "べんり",
     "Kanji": "便利",
     "Romaji": "benri",
-    "Translation": "useful, convenient"
+    "Translation": "convenient"
   },
   {
     "Kana": "ぼうし",
@@ -3331,7 +3325,7 @@
   },
   {
     "Kana": "ほか",
-    "Kanji": "",
+    "Kanji": "外",
     "Romaji": "hoka",
     "Translation": "other, the rest"
   },
@@ -3345,7 +3339,7 @@
     "Kana": "ほしい",
     "Kanji": "欲しい",
     "Romaji": "hoshii",
-    "Translation": "want"
+    "Translation": "wanted"
   },
   {
     "Kana": "ポスト",
@@ -3385,7 +3379,7 @@
   },
   {
     "Kana": "ほんとう",
-    "Kanji": "",
+    "Kanji": "本当",
     "Romaji": "hontou",
     "Translation": "truth"
   },
@@ -3399,7 +3393,7 @@
     "Kana": "まいつき",
     "Kanji": "毎月",
     "Romaji": "maitsuki",
-    "Translation": "/  -every month"
+    "Translation": "every month"
   },
   {
     "Kana": "まいしゅう",
@@ -3417,7 +3411,7 @@
     "Kana": "まいとし",
     "Kanji": "毎年",
     "Romaji": "maitoshi",
-    "Translation": "/  -every year"
+    "Translation": "every year"
   },
   {
     "Kana": "まいばん",
@@ -3435,31 +3429,31 @@
     "Kana": "まがる",
     "Kanji": "曲る",
     "Romaji": "magaru",
-    "Translation": "to turn,to bend"
+    "Translation": "to turn, to bend"
   },
   {
     "Kana": "まずい",
-    "Kanji": "",
+    "Kanji": "不味い",
     "Romaji": "mazui",
-    "Translation": "unpleasant"
+    "Translation": "not good, not well, ugly"
   },
   {
     "Kana": "また",
-    "Kanji": "",
+    "Kanji": "又",
     "Romaji": "mata",
-    "Translation": "again,and"
+    "Translation": "again, also"
   },
   {
     "Kana": "まだ",
-    "Kanji": "",
+    "Kanji": "未だ",
     "Romaji": "mada",
-    "Translation": "yet,still"
+    "Translation": "yet, still"
   },
   {
     "Kana": "まち",
     "Kanji": "町",
     "Romaji": "machi",
-    "Translation": "town,city"
+    "Translation": "town, city"
   },
   {
     "Kana": "まつ",
@@ -3469,9 +3463,9 @@
   },
   {
     "Kana": "まっすぐ",
-    "Kanji": "",
+    "Kanji": "真っ直ぐ",
     "Romaji": "massugu",
-    "Translation": "straight ahead,direct"
+    "Translation": "straight, direct, honest"
   },
   {
     "Kana": "マッチ",
@@ -3489,7 +3483,7 @@
     "Kana": "まるい",
     "Kanji": "丸い",
     "Romaji": "marui",
-    "Translation": "/ ,  -round,circular"
+    "Translation": "round, circular"
   },
   {
     "Kana": "まん",
@@ -3507,7 +3501,7 @@
     "Kana": "みがく",
     "Kanji": "磨く",
     "Romaji": "migaku",
-    "Translation": "to brush teeth, to polish"
+    "Translation": "to brush, to polish"
   },
   {
     "Kana": "みぎ",
@@ -3585,11 +3579,11 @@
     "Kana": "みる",
     "Kanji": "見る",
     "Romaji": "miru",
-    "Translation": "/ ,  -to see, to watch"
+    "Translation": "to see, to watch"
   },
   {
     "Kana": "みんな",
-    "Kanji": "",
+    "Kanji": "皆",
     "Romaji": "minna",
     "Translation": "everyone"
   },
@@ -3603,7 +3597,7 @@
     "Kana": "むこう",
     "Kanji": "向こう",
     "Romaji": "mukou",
-    "Translation": "over there"
+    "Translation": "other side, over there"
   },
   {
     "Kana": "むずかしい",
@@ -3631,7 +3625,7 @@
   },
   {
     "Kana": "メートル",
-    "Kanji": "",
+    "Kanji": "米",
     "Romaji": "meetoru",
     "Translation": "metre"
   },
@@ -3645,7 +3639,7 @@
     "Kana": "もう",
     "Kanji": "",
     "Romaji": "mou",
-    "Translation": "already"
+    "Translation": "already, any more"
   },
   {
     "Kana": "もういちど",
@@ -3717,7 +3711,7 @@
     "Kana": "やすみ",
     "Kanji": "休み",
     "Romaji": "yasumi",
-    "Translation": "rest,holiday"
+    "Translation": "rest, holiday"
   },
   {
     "Kana": "やすむ",
@@ -3739,9 +3733,9 @@
   },
   {
     "Kana": "やる",
-    "Kanji": "",
+    "Kanji": "遣る",
     "Romaji": "yaru",
-    "Translation": "to do"
+    "Translation": "to do (colloquial)"
   },
   {
     "Kana": "ゆうがた",
@@ -3789,7 +3783,7 @@
     "Kana": "ゆっくり",
     "Kanji": "",
     "Romaji": "yukkuri",
-    "Translation": "と -slowly"
+    "Translation": "slowly"
   },
   {
     "Kana": "ようか",
@@ -3805,7 +3799,7 @@
   },
   {
     "Kana": "よく",
-    "Kanji": "",
+    "Kanji": "良く",
     "Romaji": "yoku",
     "Translation": "often, well"
   },
@@ -3813,7 +3807,7 @@
     "Kana": "よこ",
     "Kanji": "横",
     "Romaji": "yoko",
-    "Translation": "beside,side,width"
+    "Translation": "beside, side, width"
   },
   {
     "Kana": "よっか",
@@ -3831,7 +3825,7 @@
     "Kana": "よぶ",
     "Kanji": "呼ぶ",
     "Romaji": "yobu",
-    "Translation": "to call out,to invite"
+    "Translation": "to call out, to invite"
   },
   {
     "Kana": "よむ",
@@ -3843,7 +3837,7 @@
     "Kana": "よる",
     "Kanji": "夜",
     "Romaji": "yoru",
-    "Translation": "evening,night"
+    "Translation": "evening, night"
   },
   {
     "Kana": "よわい",
@@ -3876,16 +3870,10 @@
     "Translation": "radio"
   },
   {
-    "Kana": "ラジオカセット",
-    "Kanji": "ラジカセ",
-    "Romaji": "rajiokasetto",
-    "Translation": "/  -radio cassette player"
-  },
-  {
     "Kana": "りっぱ",
-    "Kanji": "",
+    "Kanji": "立派",
     "Romaji": "rippa",
-    "Translation": "splendid"
+    "Translation": "magnificent, splendid"
   },
   {
     "Kana": "りゅうがくせい",
@@ -3981,13 +3969,13 @@
     "Kana": "わたくし",
     "Kanji": "私",
     "Romaji": "watakushi",
-    "Translation": "(humble) I,myself"
+    "Translation": "I, myself (humble)"
   },
   {
     "Kana": "わたし",
     "Kanji": "私",
     "Romaji": "watashi",
-    "Translation": "I,myself"
+    "Translation": "I, myself"
   },
   {
     "Kana": "わたす",
@@ -4008,9 +3996,9 @@
     "Translation": "bad"
   },
   {
-    "Kana": "ほう",
-    "Kanji": "より",
-    "Romaji": "hou",
-    "Translation": "Used for comparison."
+    "Kana": "より",
+    "Kanji": "",
+    "Romaji": "yori",
+    "Translation": "rather, from (comparison)"
   }
 ]
