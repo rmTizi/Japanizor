@@ -12,7 +12,7 @@
 else
 {
     <p class="text-center text-secondary">Word @current of @words?.Length </p>
-    <WordTest Word="@session?.Current" NextWordAction="() => NextWord()"/>
+    <WordTest Word="@session?.Current" NextWordAction="() => NextWord()" />
 }
 
 @code {
@@ -28,7 +28,19 @@ else
     {
         loading = true;
 
-        words = await Http.GetFromJsonAsync<Jword[]>($"data/{Name}.json");
+        if (Name == "jlpt54")
+        {
+            var w5 = await Http.GetFromJsonAsync<Jword[]>($"data/jlpt5.json");
+            var w4 = await Http.GetFromJsonAsync<Jword[]>($"data/jlpt4.json");
+
+            words = new Jword[w5.Length + w4.Length];
+            w5.CopyTo(words, 0);
+            w4.CopyTo(words, w5.Length);
+        }
+        else
+        {
+            words = await Http.GetFromJsonAsync<Jword[]>($"data/{Name}.json");
+        }
         Shuffle();
 
         loading = false;
