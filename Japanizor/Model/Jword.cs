@@ -7,13 +7,13 @@ namespace Japanizor.Model
 {
     public class Jword
     {
-        public string Kana { get; set; }
+        public string? Kana { get; set; }
 
-        public string Kanji { get; set; }
+        public string? Kanji { get; set; }
 
-        public string Romaji { get; set; }
+        public string? Romaji { get; set; }
 
-        public string Translation { get; set; }
+        public string? Translation { get; set; }
 
     }
 }

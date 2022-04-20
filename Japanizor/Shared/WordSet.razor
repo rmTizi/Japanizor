@@ -17,12 +17,12 @@ else
 
 @code {
     [Parameter]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     private bool loading = true;
     private int current = 0;
-    private IEnumerator<Jword> session;
-    private Jword[] words;
+    private IEnumerator<Jword>? session;
+    private Jword[]? words;
 
     protected override async Task OnParametersSetAsync()
     {

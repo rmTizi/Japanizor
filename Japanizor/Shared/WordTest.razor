@@ -45,9 +45,9 @@
     }
 
     [Parameter]
-    public Jword Word { get; set; }
+    public Jword? Word { get; set; }
     [Parameter]
-    public Action NextWordAction { get; set; }
+    public Action? NextWordAction { get; set; }
 
     public TestState state = TestState.Prompt;
 
